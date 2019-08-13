@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://jbhoui:rhino11@cluster0-camoc.mongodb.net/test?retryWrites=true&w=majority"
+}
