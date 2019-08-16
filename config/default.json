@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://jbhoui:rhino11@cluster0-camoc.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "346b6bc2fe0139cc8efe",
+  "githubSecret": "de73ac20548f16c00d4a09b89e01f8b812487ce7"
 }
