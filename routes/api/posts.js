@@ -109,7 +109,7 @@ router.delete("/:id", auth, async (req, res) => {
 // @desc   Like a post
 // @access   Private*
 
-router.put("/like/:id", auth, async (req, res) => {
+router.put("/like/:post_id", auth, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
 
@@ -134,7 +134,7 @@ router.put("/like/:id", auth, async (req, res) => {
 // @desc   Unlike a post
 // @access   Private*
 
-router.put("/unlike/:id", auth, async (req, res) => {
+router.put("/unlike/:post_id", auth, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
 
@@ -207,7 +207,7 @@ router.post(
 // @desc    suppression d'un commentaire sur un post
 // @access   Private
 
-router.delete("/comment/:id/:comment_id", auth, async (req, res) => {
+router.delete("/comment/:post_id/:comment_id", auth, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
 
